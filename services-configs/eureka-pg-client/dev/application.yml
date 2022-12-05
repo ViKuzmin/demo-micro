@@ -1,0 +1,14 @@
+
+
+
+spring:
+  datasource:
+    password: F4aef2aB
+    username: kali
+    url: jdbc:postgresql://localhost:5432/db1
+    driver-class-name: org.postgresql.Driver
+
+  jpa:
+    hibernate:
+      ddl-auto: update
+    show-sql: true
